@@ -1,0 +1,7 @@
+print("Что у вас за питомец?")
+animal_species = input()
+print("Сколько лет вашему питомцу?")
+pet_age = input()
+print("Как зовут вашего питомца?")
+pet_name = input()
+print("Это", animal_species, "по кличке", '""' + pet_name + '""' + ".","Возраст:" + pet_age, "года." )
